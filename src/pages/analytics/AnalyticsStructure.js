@@ -1,16 +1,15 @@
 import React from "react"
-
+import '../../Css/Analytics.css'
 
 class AnalyticsStructure extends React.Component {
-
+/*
     constructor(props) {
         super(props);
-    }
+    }*/
     render() {
         const analyticspage = this.props.article
         return (
-            <div>
-            <div className="total-grid">
+            <div className="total-grid-i">
 
                 <div className="headings">
                   <div className="article-topic">
@@ -114,7 +113,9 @@ class AnalyticsStructure extends React.Component {
                         </div>
                         </div>
                 </div>
-            </div>
+                <div className="footerp">
+					           footer
+		             </div>
             </div>
         );
     }

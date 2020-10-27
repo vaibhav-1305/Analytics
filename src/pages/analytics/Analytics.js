@@ -2,6 +2,7 @@ import React from "react"
 import "../../font-awesome/css/font-awesome.min.css"
 import AnalyticsStructure from "./AnalyticsStructure.js"
 
+
 class Analytics extends React.Component {
 
     constructor(props) {
