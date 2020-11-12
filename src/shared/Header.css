@@ -1,13 +1,12 @@
 #topnav{
   background-color: #FFFFFF;
   top: 0px;
+  padding-left: 45px;    /* For the navbar */
   display: inline-block;
-  width: 97.4vw;
-  margin-left: 2.6vw;
-  height: 5vh;
+  width: 100%;
+  height: 5.54vh;
   box-sizing: border-box;
   color: #707070;
-  position: fixed;
 }
 
 #logo{

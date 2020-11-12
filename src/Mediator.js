@@ -7,6 +7,7 @@ import Footer from './shared/Footer.js';
 
 import Analytics from './pages/analytics/Analytics.js';
 import Dashboard from './pages/dashboard/Dashboard.js';
+import Engagement from './pages/engagement/Engagement.js';
 //import Portfolio from './portfolio.js';
 
 import AnalyticsData from './data/AnalyticsData.js'
@@ -31,7 +32,8 @@ class Mediator extends React.Component {
   render() {
     const DashboardPage = () => {
       return(
-          <Dashboard dashboarddata={this.state.dashboarddata} quickoverviewdata = {this.state.quickoverviewdata}/>
+        //  <Dashboard dashboarddata={this.state.dashboarddata} quickoverviewdata = {this.state.quickoverviewdata}/>//
+        <Engagement/>
       );
     }
     const AnalyticsPage = () => {

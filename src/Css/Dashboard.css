@@ -8,10 +8,10 @@ body{
 }
 
 .total-grid {
-  margin-left: 2.6vw;
-  margin-top: 5.54vh;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: grid;
-  width: 97.4vw;
   /*
   //This height has been removed since it was giveing a lot of margin above the Heading of task
   height: 100vh;*/
