@@ -24,8 +24,8 @@ class EngagementStructure extends React.Component {
 
 			</div>
 		</div>
-		<div className="overview">
-					<div className="overview-box">
+		<div className="engagement-overview">
+					<div className="engagement-overview-box">
 
 
 						<div className="individual-box">
